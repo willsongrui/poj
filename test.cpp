@@ -2,6 +2,9 @@
 using namespace std;
 int main()
 {
-	int m = 077;
-	cout<<m;
+	int m = 8;
+	int n = 8;
+	
+
+	cout<<(m^n);
 }
