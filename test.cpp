@@ -1,10 +1,11 @@
 #include <iostream>
+#include <memory.h>
 using namespace std;
 int main()
 {
-	int m = 8;
-	int n = 8;
-	
-
-	cout<<(m^n);
+	char a[]="sdfdsfs";
+	char b[100];
+	memcpy(b,a,sizeof(a));
+	cout<<b;
+	cout<<sizeof(a);
 }
